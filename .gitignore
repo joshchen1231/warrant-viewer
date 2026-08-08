@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime data: locally collected warrant database + logs
+data/
+
+# Node / build output
+node_modules/
+frontend/dist/
+
+# Local overrides
+*.local
+
+# Internal workflow notes (decision log, phase log, tickets) — not for public release
+references/
